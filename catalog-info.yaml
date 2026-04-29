@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-testing
+  annotations:
+    github.com/project-slug: Raghvendra1993/backstage-testing
+spec:
+  type: service
+  owner: guest
+  lifecycle: production
